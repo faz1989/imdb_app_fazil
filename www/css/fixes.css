@@ -1,0 +1,217 @@
+/* Screen fixes */
+@media screen and (min-width: 320px) and (max-width: 330px) 
+{
+.remindme_price_button {
+    width: 73px;
+    font-size: 9px;
+	font-weight: bold;
+}
+.category_buttons .banner_list_addtocart, .category_buttons .banner_list_buynow, .view_order {
+    width: 73px;
+    font-size: 8.5px;
+	font-weight: bold;
+}
+.product_addtocart, .product_buynow {
+    width: 84px;
+    font-size: 9px;
+    font-weight: bold;
+}
+.tab1detailstitle{
+	    margin-top: 40px;
+}
+.banner_list_addtocart, .banner_list_buynow {
+    width: 100px;
+    font-size: 10px;
+}
+.addressediticon, .addressdeleteicon{
+	width: 28px;
+    height: 28px;
+	line-height: 28px;
+}
+.order_normal {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.login_page .hero.no-header {
+    height: 72px;
+}
+span.cartprice {
+    float: none;
+    color: #e4382e;
+    font-weight: bold;
+    margin-top: 16px;
+    display: block;
+}
+.product_title, .product_review{
+	margin-bottom:10px;
+}
+
+
+
+}
+
+@media screen and (min-width: 331px) and (max-width: 360px) 
+{
+.remindme_price_button {
+    width: 81px;
+    font-size: 10px;
+}
+.category_buttons .banner_list_addtocart, .category_buttons .banner_list_buynow, .view_order {
+    width: 81px;
+    font-size: 10px;
+}
+}
+
+@media screen and (min-width: 540px) and (max-width: 640px) 
+{
+.banner_list_addtocart, .banner_list_buynow {
+    width: 138px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}	
+.banner_list_buynow {
+    margin-top: 8px !important;
+}	
+.cart_buttons  .cartplus, .cart_buttons .carttext, .cart_buttons  .cartminus{
+	display:block;
+	    margin: 0 auto;
+}
+.remindme_price_button{
+	margin-top:0;
+}	
+.remindme_price.ng-binding {
+    margin-bottom: 12px;
+}
+button.button.button-full.button-assertive.ink.process_checkout{
+	width: 50%;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.header_bg_row_title_content p {    
+    width: 64%;
+    margin: 0 auto;
+}
+.formlist{
+	width:60%;	
+}
+.category_buttons .banner_list_addtocart, .category_buttons .banner_list_buynow {
+    width: 95px;
+    font-size: 11px;
+}
+	
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1024px) 
+{
+.cart_buttons  .cartplus, .cart_buttons .carttext, .cart_buttons  .cartminus{
+	display:block;
+	    margin: 0 auto;
+}	
+.category_buttons .banner_list_buynow {
+     margin-top: 15px; 
+}
+.category_buttons .banner_list_addtocart, .category_buttons .banner_list_buynow {
+    width: 130px;
+    font-size: 13px;
+	    display: block;
+}
+.login_page .hero.no-header, .register_page .hero.no-header {
+    height: 300px;
+}
+.ink.button.product_buynow.redborder {
+    margin-left: 15px;
+}
+span.product_add_wishlist, span.cartprice{	
+    padding-right: 15px;
+}
+/*.formlist .button{
+	width: 25%;
+    margin: 10px auto;
+}*/
+.formlist  button.button.flaticon-paper-clip {
+    margin: 10px 0;
+    width: 42%;
+}
+
+.order_row_sep{
+	padding-left: 20px;
+    padding-right: 20px;
+}
+.login_page  .panel_login, .register_page  .panel_login{
+	padding-left:100px;
+	padding-right:100px;
+	padding-top: 30px;
+    padding-bottom: 30px;
+	    width: 70%;
+}
+.app-icon img {
+    width: 58%;
+}
+p.register_link, p.forget{
+	margin-top:20px;
+}
+.categorylist{
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:16px;
+}
+.categorylist1{
+	height:34px;
+}
+.category_title.ng-binding {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.remindme_price_button {
+    width: 100px;
+    font-size: 11px;
+    margin-top: 15px;
+}
+.category_buttons{
+	float:right;
+}
+.product_img img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.product_addtocart, .product_buynow{
+	width:110px;	
+}
+span.detailsright{
+	width:75%;
+}
+span.detailsleft{
+	width:25%;
+}
+span.reviewdesc{
+	width:92%;
+}
+button.button.button-full.button-assertive.ink.process_checkout{
+	width: 50%;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.header_bg_row_title_content p {    
+    width: 64%;
+    margin: 0 auto;
+}
+.formlist{
+	width:60%;	
+}
+.view_order {
+    font-size: 12px;
+    width: 100px;
+}
+.order_history_details .remindme_price_button{
+	margin-top:0 !important;
+}
+.whishlist_remove  i.flaticon-delete-photo{
+	margin-bottom:12px;
+}
+}

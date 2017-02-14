@@ -1,0 +1,84 @@
+<html ng-app="imdbApp">
+<head>
+<title>IMDB</title>
+<!-- Custom Theme files -->
+<!-- CSS -->
+  <link href="css/LatoRegular.css" rel="stylesheet">
+  <link href="./lib/material/ion-md-input.css" rel="stylesheet">
+  <link href="./lib/material/ionic.material.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/font/flaticon.css" rel="stylesheet">
+  <link href="./lib/carusolel/swiper.css" rel="stylesheet">
+  <link href="./lib/tabslide/tabSlideBox.css" rel="stylesheet">
+  <link href="css/fixes.css" rel="stylesheet">  
+  <!--End CSS -->
+  
+  
+  <!-- Cordova JS -->
+  <!--<script src="cordova.js"></script>-->
+  <!-- End Cordova JS -->
+  
+  <!-- JS -->
+    <script src="./lib/ionic/ionic.js"></script>
+  <script src="./lib/material/ionic.material.min.js"></script>
+  <script src="./lib/material/ion-md-input.min.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/route.js"></script>
+  <script src="js/directive.js"></script>
+  <script src="js/factory.js"></script>
+  <script src="js/app.js"></script>
+  <script src="./lib/jquery/jquery.js"></script>
+  <script src="./lib/carusolel/swiper.min.js"></script>
+  <script src="./lib/ionic-modal-select/modal_select.js"></script>
+  <script src="./lib/tabslide/tabSlideBox.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Ensaluto Form Responsive,Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+<!--Google Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--Google Fonts-->
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="app" ng-controller="LoginCtrl">
+   <div class="top-bar">
+           <!--  <div class="navg">
+                <span class="menu"> <img src="images/menu.png" alt=""/></span>
+                <ul class="res">
+                    <li><a class="active scroll" href="#coffee">Menu</a></li>
+                    <li><a class="scroll" href="#about">Tools</a></li>
+                    <li><a class="scroll" href="#about">Settings</a></li>
+                    <li><a class="scroll" href="#contact">Login</a></li>
+                </ul>
+                <script>
+                                  $( "span.menu").click(function() {
+                                                                    $(  "ul.res" ).slideToggle("slow", function() {
+                                                                     // Animation complete.
+                                                                     });
+                                                                     });
+               </script>
+            </div> -->
+        <h2>My Movie</h2>
+    </div>
+    <div class="cam-img">
+         <a href="#"><img src="images/cam.png" alt=""/></a> 
+         <input type="file" value="" />
+    </div>
+    <form>
+        <input type="text" placeholder="Email Address" ng-model="email" name="email" id="email"/>
+        <input type="password" placeholder="password" ng-model="password" name="password" id="password"/>
+        <input type="submit" value="Login" id="login"/>
+    </form>
+    <p style="color:#b39393" id="signup">Don't have an account? Sign Up</p>
+    <p>By registering, I accept the<br><a href="#"> Terms of Service </a> and <a class="app-text" href="#">Privacy Policy</a></p>
+   </div>
+</body>
+</html>
